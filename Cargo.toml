@@ -1,0 +1,18 @@
+[package]
+name = "fps_launch"
+version = "0.2.0"
+edition = "2021"
+description = "MFG - RTSS frame-rate scaler launcher"
+
+[[bin]]
+name = "fps_launch"
+path = "src/main.rs"
+
+[dependencies]
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
