@@ -153,7 +153,7 @@ Enjoy your games. Enjoy the number. But remember: **the game was always the poin
 
 ## License
 
-**GPL-3.0-or-later**
+**Mit license**
 
 You are free to use, study, modify, and redistribute this software under the terms of the GNU General Public License, version 3 or later. Any derivative work must remain open-source and must credit the original author.
 
