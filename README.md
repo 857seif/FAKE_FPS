@@ -126,19 +126,6 @@ Fake FPS was built for people who want to enjoy their offline games. It was neve
 - **Fixed window layout.** The UI does not scale with DPI. Use 100% display scaling for the intended appearance.
 - **Windows 10 1809+ recommended.** Dark title bar attributes are applied on Windows 10 1809 and later; older builds will fall back gracefully.
 
----
-
-## Roadmap
-
-- [ ] **Restore button** — reset RTSS to its original value (`10,000,000`) without restarting the game.
-- [ ] **Hotkey toggle** — `Ctrl+Alt+F` to enable/disable the multiplier during play.
-- [ ] **RTSS version check** — warn the user when the detected RTSS version is outside the tested range.
-- [ ] **Reduced permission footprint** — request only `VM_READ | VM_WRITE | VM_OPERATION` in the patch loop.
-- [ ] **DPI-aware layout.**
-- [ ] **Log file** for troubleshooting.
-
----
-
 ## Philosophy
 
 Fake FPS is not a cheat. It is not a benchmark tool. It is not a way to deceive anyone.
